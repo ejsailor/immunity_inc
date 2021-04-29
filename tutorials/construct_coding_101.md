@@ -29,3 +29,8 @@
   If you would like to make this sprite animated, you can do this by adding frames in the bottom animation panel. To add a frame, right click on frame 0 and duplicate the frame. Now, make any changes you would like to this image to make the animation. Animations will automatically run continuously if you don't specify when to start and stop or what frame you'd like to show in the event sheet for each layout that the sprite is present in.
   Remember to name your sprite!
   
+##Entering Code
+  Enter code by clicking 'Add Event' on an event sheet. Use the code in Level 1 as a starting point for other levels.
+    Maps - on the mmap layouts, you only need to have individual sprites that when the guiding character (ThCell) collides with them, they take you to a layout. Have a separate layout for each battle, quiz, etc. Also, tell the computer to destroy the battle or quiz icon sprite after collisoin. Make sure you give the sprites the behavior of 'persist' so that they don't reappear when you return to the layout after completing the quiz.
+    Battles - Battles are turn-based. Set individual global variables for each battle. You should have both a pathogen damage and host damage global variable that will be added to throughout the level. Give each player and enemy a boolean variable through the instance variables that indicates their turn. Give each player an number instance variable that corresponds to their damage dealt, as well as one that corresponds to how much they damage the host. 
+  
